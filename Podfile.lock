@@ -1,0 +1,84 @@
+PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
+  - Alamofire (5.4.0)
+  - CouchbaseLite-Swift (2.8.1)
+  - Differentiator (4.0.1)
+  - ModelMapper (10.0.1):
+    - ModelMapper/Core (= 10.0.1)
+  - ModelMapper/Core (10.0.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya-ModelMapper/Core (10.0.0):
+    - ModelMapper (~> 10.0)
+    - Moya (~> 14.0)
+  - Moya-ModelMapper/RxSwift (10.0.0):
+    - Moya-ModelMapper/Core
+    - Moya/RxSwift (~> 14.0)
+    - RxSwift
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Nuke (9.2.4)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Action
+  - CouchbaseLite-Swift
+  - Moya-ModelMapper/RxSwift
+  - Moya/RxSwift
+  - Nuke
+  - NVActivityIndicatorView
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - CouchbaseLite-Swift
+    - Differentiator
+    - ModelMapper
+    - Moya
+    - Moya-ModelMapper
+    - Nuke
+    - NVActivityIndicatorView
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  CouchbaseLite-Swift: 57981190bab3f7be4648fae746716306930b07f9
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  ModelMapper: 0f68dd4300d0e27290c70f66492c7f795da21bcf
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya-ModelMapper: e3a478500921e7299804dc1ac550f1ebf3228ade
+  Nuke: 44439f7a92e665a4f927ecd73cb51f91d93b0e0c
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 41fbf3e8c45b0d88682a0ab14060132933defe74
+
+COCOAPODS: 1.9.3
