@@ -29,7 +29,7 @@ class PostInteractor: PostInteractorType {
         if InternetConnectionManager.isConnectedToNetwork() {
             return remoteDataSource.getPosts()
                 .flatMap { [self] result -> Observable<Result<[Post], Error>> in
-                    // updates the loca data source
+                    // updates the local data source
                     if case let .success(posts) = result {
                         localDataSource.savePosts(posts: posts)
                             .subscribe()
