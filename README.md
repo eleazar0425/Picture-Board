@@ -1,12 +1,12 @@
 # Picture-Board
-Picture board on top of RxSwift and MVVM
+Picture board sample app.
 
 Build on top of:
-RxSwift
-RxCocoa
-RxDatasources
-Nuke
-CouchBaseLite
-MVVM Pattern
+* RxSwift
+* RxCocoa
+* RxDatasources
+* Nuke
+* CouchBaseLite
+* MVVM Pattern
 
 ![](/screenshot.png)
